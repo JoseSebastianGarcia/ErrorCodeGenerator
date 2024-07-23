@@ -12,6 +12,9 @@
     <Company>Jose Sebastian Garcia</Company>
     <Product>ErrorCodeGeneratorCore</Product>
     <Description>Una librería que facilita la generación de códigos de error aportando como valor la generación de códigos con prefijos y sufijos.</Description>
+    <PackageProjectUrl>https://github.com/JoseSebastianGarcia/ErrorCodeGenerator</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>error;generator;code;csharp;C#;vb;net8</PackageTags>
   </PropertyGroup>
 
   <ItemGroup>
