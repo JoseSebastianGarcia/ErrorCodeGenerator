@@ -18,5 +18,17 @@ string GenerateCode(string prefix, string mask, string suffix); //WARN,#####-###
 
 Los tres argumentos admiten el caracter # para la generación de alfanuméricos [A-Z0-9]
 
+# Inyección de dependencias
+```csharp
+IServiceCollection services = new ServiceCollection();
+services.AddErrorCodeGenerator();
+
+var provider = services.BuildServiceProvider();
+
+var generator = provider.GetRequiredService<IErrorCodeGenerator>();
+generator.GenerateCode("#-###-##"); //R-6H5-Q2, 1-AS2-3B
+```
+
+
 
 <a href="https://www.buymeacoffee.com/josesebastiangarcia" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
