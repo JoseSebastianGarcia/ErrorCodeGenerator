@@ -15,6 +15,7 @@
     <PackageProjectUrl>https://github.com/JoseSebastianGarcia/ErrorCodeGenerator</PackageProjectUrl>
     <RepositoryType>git</RepositoryType>
     <PackageTags>error;generator;code;csharp;C#;vb;net8</PackageTags>
+    <Version>1.0.1</Version>
   </PropertyGroup>
 
   <ItemGroup>
