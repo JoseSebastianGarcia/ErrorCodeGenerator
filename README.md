@@ -29,6 +29,11 @@ var generator = provider.GetRequiredService<IErrorCodeGenerator>();
 generator.GenerateCode("#-###-##"); //R-6H5-Q2, 1-AS2-3B
 ```
 
-
+#Features Version 1.0.1
+```
+  # Generará letras y números
+  $ Generará únicamente números
+  & Generará únicamente letras
+```
 
 <a href="https://www.buymeacoffee.com/josesebastiangarcia" target="_blank"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" alt="Buy Me A Coffee" style="height: 60px !important;width: 217px !important;" ></a>
