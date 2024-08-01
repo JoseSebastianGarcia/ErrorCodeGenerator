@@ -29,7 +29,7 @@ var generator = provider.GetRequiredService<IErrorCodeGenerator>();
 generator.GenerateCode("#-###-##"); //R-6H5-Q2, 1-AS2-3B
 ```
 
-#Features Version 1.0.1
+## Features Version 1.0.1
 ```
   # Generará letras y números
   $ Generará únicamente números
