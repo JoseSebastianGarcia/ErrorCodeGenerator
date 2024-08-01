@@ -30,4 +30,11 @@ Console.WriteLine("NA-### ###-#-### P-#");
 Console.WriteLine(generator.GenerateCode("NA-###", "###-#-###", "P-#"));
 Console.WriteLine();
 
+Console.WriteLine("Mixed component v2");
+Console.WriteLine("NA-#&& ###-$-### P-$");
+for(var i = 0; i < 10; i++)
+    Console.WriteLine(generator.GenerateCode("NA-#&&", "###-$-###", "P-$"));
+Console.WriteLine();
+
+
 Console.ReadKey();
